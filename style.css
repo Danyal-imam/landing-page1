@@ -1,0 +1,201 @@
+
+
+/* navbar */
+
+.navbar {
+    border: none;
+    border-radius: 0;
+    line-height: 1.5;
+    background-color: #fff;
+    padding:10px 15px 10px 15px;
+    margin-bottom: 0;
+}
+
+
+
+.nav li button {
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: #fff;
+    padding:15px 50px 15px 50px;
+}
+
+@media screen and (min-width:1050px){
+    .navbar-brand {
+        padding-right: 250px;
+    }
+}
+
+
+@media screen and (max-width:690px){
+    .navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: transparent;
+    }
+    .navbar-header {
+        background-color: #fff;
+    }
+    .navbar-brand {
+        margin-right: 10px;
+    }
+    .navbar .nav li button {
+        display: none;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    .navbar-default .navbar-collapse {
+        background-color: #fff;
+        border: none;
+        margin: 10px;
+    }
+   
+    
+    
+}
+
+/* header */
+
+
+
+
+/* why choose us  (section2) */
+.section2 {
+    background-color: hsl(220, 16%, 96%);
+    padding: 90px 0 40px;
+}
+
+.section2 h2 {
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+.section2 p {
+    font-size: 17px;
+    padding-bottom: 25px;
+    opacity: 0.7;
+    text-align: inherit;
+}
+
+.section2 h4 {
+    font-weight: 500;
+    padding: 20px 0 15px;
+}
+
+@media screen and (max-width:768px){
+    .section2 {
+        text-align: center;
+    }
+}
+
+
+/* article  (section3) */
+
+.section3 {
+    background-color: hsl(0, 0%, 98%);
+    padding-bottom: 65px;
+}
+
+.section3 h2 {
+    
+    padding: 30px 0 30px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+
+.thumbnail .caption {
+    padding-top: 20px;
+}
+
+.thumbnail .caption small {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.thumbnail .caption p {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+@media screen and (max-width:768px){
+    .section3 .row .col-sm-3 {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .section3 h2 {
+        text-align: center;
+    }
+}
+
+
+
+
+
+/* footer */
+ 
+footer{
+    background-color: hsl(233, 26%, 24%);
+}
+.section4  {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.footer-logo {
+    margin-top: 25px;
+}
+
+.footer-logo img {
+    padding-bottom: 50px;
+    
+}
+
+footer ul li a{
+    color: #fff;
+    font-size: 17px;
+}
+
+.nav li a:hover {
+    background-color: transparent;
+    color: hsl(136, 65%, 51%);
+}
+
+.section4 button {
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: #fff;
+    padding:15px 50px 15px 50px;
+    margin-left: -50px;
+  
+    margin-bottom: 50px;
+}
+
+.section4 p{
+    color: #fff;
+}
+
+.list-inline li a i{
+    font-size: 20px;
+}
+
+.list-inline li a i:hover {
+    color: hsl(136, 65%, 51%);
+}
+
+@media screen and (max-width:768px){
+    .section4 button{
+        margin-top: 40px;
+        
+    }
+
+}

@@ -58,6 +58,11 @@
 
 /* header */
 
+.img-div{overflow: hidden;}
+
+.img-front{position:absolute;left:170px;top:-60px;}
+
+.img-back{position: relative;top:-140px;left:30px;}
 
 
 
